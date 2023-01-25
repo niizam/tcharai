@@ -8,12 +8,12 @@ def run(stdscr):
     if len(sys.argv) > 1:
         url = sys.argv[1]
     else:
-        url = "https://beta.character.ai/chat?char=Dz6sI1u_P8LRwpMPHKa70C8JGJIfqMpqDmJ_s8sw8HE"
+        url = "https://beta.character.ai/chat?char=zb7I4U9OYfewmEgOWLBHScefPeELkm1J-_GZDjHLY1M"
     browser = playwright.firefox.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
     page.goto(url)
-    page.get_by_role("button", name="I understand").click()
+    page.get_by_role("button", name="Accept").click()
 
     while True:
         stdscr.refresh()
