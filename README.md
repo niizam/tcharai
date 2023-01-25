@@ -1,5 +1,5 @@
 # tcharai
-A TUI for interacting with CharacterAI using Python
+A TUI script for interacting with CharacterAI using Python
 
 Install requirements
 ```
