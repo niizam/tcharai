@@ -27,7 +27,7 @@ def run(stdscr):
         page.get_by_placeholder("Type a message").press("Enter")
         chara = page.query_selector('div.chattitle.p-0.pe-1.m-0')
         chara_name = chara.inner_text()
-        time.sleep(20)
+        page.wait_for_selector('.swiper-button-next').is_visible()
         div = page.query_selector('div.msg.char-msg')
         output_text = div.inner_text()
         stdscr.addstr(time_str+ chara_name + ' ✉\n' + output_text + '\n \n')
