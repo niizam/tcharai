@@ -8,10 +8,12 @@ playwright install firefox
 ```
 
 
-How to use (for example: python tcharai.py https://beta.character.ai/chat?char=zb7I4U9OYfewmEgOWLBHScefPeELkm1J-_GZDjHLY1M )
+How to use 
 ```
-python tcharai.py [url] 
+python tcharai.py character_id 
 ```
+You can get character_id from url https://beta.character.ai/chat?char=M5xMXf4FKepKTYtWPqVaEZzuEuy90uu0eNZr4GZtDsA
+
 or just
 ```
 python tcharai.py
