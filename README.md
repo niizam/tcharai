@@ -18,5 +18,5 @@ python tcharai.py
 ```
 
 To Do
-[x] Wait until character finish typing then send the messages without using time.sleep()
-[ ] New lines support of character message
+- [x] Wait until character finish typing then send the messages without using time.sleep()
+- [ ] New lines support of character message
