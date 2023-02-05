@@ -6,13 +6,13 @@ import datetime
 
 def run(stdscr):
     if len(sys.argv) > 1:
-        url = sys.argv[1]
+        chara_id = sys.argv[1]
     else:
-        url = "https://beta.character.ai/chat?char=zb7I4U9OYfewmEgOWLBHScefPeELkm1J-_GZDjHLY1M"
+        chara_id = "zb7I4U9OYfewmEgOWLBHScefPeELkm1J-_GZDjHLY1M"
     browser = playwright.firefox.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
-    page.goto(url)
+    page.goto('https://beta.character.ai/chat?char='+chara_id)
     page.get_by_role("button", name="Accept").click()
 
     while True:
