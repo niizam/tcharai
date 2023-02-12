@@ -5,6 +5,7 @@ Install requirements
 ```
 pip install playwright
 playwright install firefox
+pip install windows-curses
 ```
 
 
