@@ -3,9 +3,8 @@ A TUI script for interacting with CharacterAI using Python
 ![](https://github.com/niizam/tcharai/blob/main/tcharai.gif)
 Install requirements
 ```
-pip install playwright
+pip install -r requirements.txt
 playwright install firefox
-pip install windows-curses
 ```
 
 
