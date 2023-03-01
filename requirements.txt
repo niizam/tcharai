@@ -1,0 +1,4 @@
+playwright
+platform_system == "Windows" and (
+    windows-curses
+)
