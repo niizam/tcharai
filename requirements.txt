@@ -1,4 +1,2 @@
 playwright
-platform_system == "Windows" and (
-    windows-curses
-)
+windows-curses; sys_platform == 'win32' 
